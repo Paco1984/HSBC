@@ -1,0 +1,171 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Common steps",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 8693774100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user is located at the HSBC page",
+            "match": {
+              "location": "hsbcSD.the_user_is_located_at_the_HSBC_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 8,
+        "name": "Cuentas y Tarjetas",
+        "description": "",
+        "id": "hsbc-products-and-options;cuentas-y-tarjetas",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1185021400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "the user clicks on Cuentas y Tarjetas",
+            "match": {
+              "location": "hsbcSD.the_user_clicks_on_Cuentas_y_Tarjetas()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3863693600,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "the user selects Conoce Nomina HSBC",
+            "match": {
+              "location": "hsbcSD.the_user_selects_Conoce_N_mina_HSBC()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1784246500,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "the user clicks on Solicita tu Nomina",
+            "match": {
+              "location": "hsbcSD.the_user_clicks_on_Solicita_tu_N_mina()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5918379200,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "the user clicks on No eres cliente aun",
+            "match": {
+              "location": "hsbcSD.the_user_clicks_on_No_eres_cliente_a_n()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 591468600,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "the user clicks on He leido y acepto...",
+            "match": {
+              "location": "hsbcSD.the_user_clicks_on_He_le_do_y_acepto()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5612661600,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "the user enters the following info",
+            "match": {
+              "location": "hsbcSD.the_user_enters_the_following_info(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Nombre",
+                  "Apellidos",
+                  "CorreoE",
+                  "Mobile"
+                ],
+                "line": 15
+              },
+              {
+                "cells": [
+                  "Alberto",
+                  "Estrada Mendoza",
+                  "sergioem@mail.com",
+                  "34499046"
+                ],
+                "line": 16
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 104895500,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "the user clicks on Continue button",
+            "match": {
+              "location": "hsbcSD.continue_button_is_displayed()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 846624900,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "a message alert is displayed",
+            "match": {
+              "location": "hsbcSD.a_message_alert_is_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 7,
+            "name": "@Nomina"
+          }
+        ]
+      }
+    ],
+    "name": "HSBC products and options",
+    "description": "",
+    "id": "hsbc-products-and-options",
+    "keyword": "Feature",
+    "uri": "src/test/java/features/hsbc_01.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@Webpage"
+      }
+    ]
+  }
+]
